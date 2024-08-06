@@ -12,7 +12,7 @@ object q3 {
             }
 
             else {
-                !(2 until num).exists(n => num %n == 0)
+                !(2 until num).exists(n => num % n == 0)
             }
         }
 
